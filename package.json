@@ -6,16 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ashort-zaizi/cypress-template-project.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ashort-zaizi/cypress-template-project/issues"
-  },
-  "homepage": "https://github.com/ashort-zaizi/cypress-template-project#readme",
   "devDependencies": {
     "cypress": "^13.10.0",
     "cypress-cucumber-preprocessor": "^4.3.1"

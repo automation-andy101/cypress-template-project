@@ -6,14 +6,14 @@ Cypress.Commands.add('navigateToUrl', (url) => {
 
 
 Cypress.Commands.add('enterText', (selector, text) => {
-    cy.get(selector)
+    cy.get(selector, { timeout: 10000 })
         .should('be.visible')
         .clear()
         .type(text)
 })
 
 Cypress.Commands.add('clickButton', (selector, text) => {
-    cy.get(selector)
+    cy.get(selector, { timeout: 10000 })
         .should('be.visible')
         .and('not.be.disabled')
         .click()
